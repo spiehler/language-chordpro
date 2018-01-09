@@ -1,0 +1,25 @@
+'scopeName': 'source.chordpro'
+'name': 'Chordpro'
+'fileTypes': [
+  'chopro',
+  'crd',
+  'chordpro'
+]
+
+'patterns': [
+  {
+    'match': '\\{(soc|sop:.*|eoc|eop)\\}',
+    'name': 'keyword',
+    'comment': 'Chorus'
+  },
+  {
+    'match': '\\{.*[:].*\\}',
+    'name': 'string',
+    'comment': 'Attributes'
+  },
+  {
+    'match': '\\[[a-zA-Z0-9#\\/]*\\]',
+    'name': 'variable',
+    'comment': 'Chords'
+  }
+]

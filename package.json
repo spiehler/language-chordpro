@@ -1,0 +1,21 @@
+{
+  "name": "language-chordpro",
+  "main": "./lib/language-chordpro",
+  "version": "0.0.0",
+  "description": "Chordpro language support in Atom",
+  "repository": "https://github.com/spiehler/language-chordpro.git",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "language-chordpro:toggle"
+  },
+  "deserializers": {
+    "language-chordpro/LanguageChordproView": "deserializeLanguageChordproView"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
