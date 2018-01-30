@@ -15,7 +15,7 @@
           "label": "Chordpro",
           "submenu": [
             {
-              "label": "Toggle",
+              "label": "Toggle Helper",
               "command": "language-chordpro:toggle"
             }
           ]
