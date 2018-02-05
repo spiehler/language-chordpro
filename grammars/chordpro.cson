@@ -1,3 +1,4 @@
+# valid scope names see https://manual.macromates.com/en/language_grammars
 'scopeName': 'source.chordpro'
 'name': 'Chordpro'
 'fileTypes': [
@@ -8,18 +9,55 @@
 
 'patterns': [
   {
-    'match': '\\{(soc|sop:.*|eoc|eop)\\}',
-    'name': 'keyword',
-    'comment': 'Chorus'
+    'begin': '^{(t|title):\\s*'
+    'end': '\\s*}$'
+    'name': 'constant.chordpro'
   },
   {
-    'match': '\\{.*[:].*\\}',
-    'name': 'string',
-    'comment': 'Attributes'
+    'begin': '^{(st|subtitle):\\s*'
+    'end': '\\s*}$'
+    'name': 'constant.chordpro'
+  },
+  {
+    'begin': '^{(k|key):\\s*'
+    'end': '\\s*}$'
+    'name': 'constant.chordpro'
+  },
+  {
+    'begin': '^{(c|comment):\\s*'
+    'end': '\\s*}$'
+    'name': 'comment.chordpro'
+  },
+  {
+    'begin': '^{(ci|comment_italic):\\s*'
+    'end': '\\s*}$'
+    'name': 'comment.chordpro'
+  },
+  {
+    'begin': '^{(soc|start_of_chorus)}(\n)*'
+    'end': '(\n)*{(eoc|end_of_chorus)}$'
+    'name': 'string.chordpro'
+    'patterns': [
+      {
+        'match': '\\[[a-zA-Z0-9#\\/]*\\]',
+        'name': 'variable.chordpro',
+        'comment': 'Chords'
+      }  
+    ]
+  },
+  {
+    'begin': '^{(sot|start_of_tab)}(\n)*'
+    'end': '(\n)*{(eot|end_of_tab)}$'
+    'name': 'keyword.chordpro'
+  },
+  {
+    'match': '\\{(sop:.*|eop)\\}',
+    'name': 'keyword.chordpro',
+    'comment': 'Songparts'
   },
   {
     'match': '\\[[a-zA-Z0-9#\\/]*\\]',
-    'name': 'variable',
+    'name': 'variable.chordpro',
     'comment': 'Chords'
   }
 ]

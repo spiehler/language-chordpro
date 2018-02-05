@@ -4,7 +4,17 @@
   "version": "0.1.1",
   "description": "Chordpro language support in Atom",
   "repository": "https://github.com/spiehler/language-chordpro.git",
-  "keywords": [],
+  "keywords": [
+    "chordpro",
+    "music",
+    "notation",
+    "songbook"
+  ],
+  "author": {
+    "name": "Stefan Piehler",
+    "email": "stefan.piehler@gmx.de",
+    "url": "https://github.com/spiehler"
+  },
   "activationCommands": {
     "atom-workspace": "language-chordpro:toggle"
   },

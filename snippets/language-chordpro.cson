@@ -1,0 +1,17 @@
+'.source.chordpro':
+  'chordpro':
+    'prefix': 'chordpro'
+    'body': """
+      {title:$1}
+      {subtitle:$2}
+      {key:$3}
+      $4
+      {soc}
+      {eoc}
+    """
+  'title':
+    'prefix': 't'
+    'body': '{title:$1}$0'
+  'subtitle':
+    'prefix': 'st'
+    'body': '{subtitle:$1}$0'   
