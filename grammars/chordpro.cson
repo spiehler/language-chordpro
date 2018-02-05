@@ -2,8 +2,9 @@
 'scopeName': 'source.chordpro'
 'name': 'Chordpro'
 'fileTypes': [
-  'chopro',
+  'cho',
   'crd',
+  'chopro',
   'chordpro'
 ]
 

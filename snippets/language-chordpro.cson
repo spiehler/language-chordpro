@@ -2,16 +2,52 @@
   'chordpro':
     'prefix': 'chordpro'
     'body': """
-      {title:$1}
-      {subtitle:$2}
-      {key:$3}
+      {title: $1}
+      {subtitle: $2}
+      {key: $3}
       $4
       {soc}
       {eoc}
     """
   'title':
     'prefix': 't'
-    'body': '{title:$1}$0'
+    'body': '{title: $1}$2'
   'subtitle':
     'prefix': 'st'
-    'body': '{subtitle:$1}$0'   
+    'body': '{subtitle: $1}$2'
+  'artist':
+    'prefix': 'ar'
+    'body': '{artist: $1}$2'
+  'composer':
+    'prefix': 'co'
+    'body': '{composer: $1}$2'
+  'lyricist':
+    'prefix': 'ly'
+    'body': '{lyricist: $1}$2'
+  'copyright':
+    'prefix': 'cr'
+    'body': '{copyright: $1}$2'
+  'album':
+    'prefix': 'al'
+    'body': '{album: $1}$2'
+  'year':
+    'prefix': 'ye'
+    'body': '{year: $1}$2'
+  'key':
+    'prefix': 'k'
+    'body': '{key: $1}$2'
+  'time':
+    'prefix': 'ti'
+    'body': '{time: $1}$2'
+  'tempo':
+    'prefix': 'te'
+    'body': '{tempo: $1}$2'
+  'duration':
+    'prefix': 'du'
+    'body': '{duration: $1}$2'
+  'capo':
+    'prefix': 'ca'
+    'body': '{capo: $1}$2'
+  'meta':
+    'prefix': 'me'
+    'body': '{meta: $1}$2'

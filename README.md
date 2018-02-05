@@ -6,9 +6,9 @@
 Adds chordpro language support to Atom. Chordpro is a simple text file format to write lead sheets, songs with lyrics and chords. If you want to learn more about chordpro and what you can do with it, check out the [official site](http://www.chordpro.org).
 
 ### Installation
-The chordpro support can be installed through Atom. Alternatively you can use 'apm':
+The chordpro support can be installed through Atom. Alternatively you can use `apm`:
 
-'apm install language-chordpro'
+`apm install language-chordpro`
 
 ### Features
 * Syntax highlighting when editing chordpro files
