@@ -25,7 +25,32 @@
     'name': 'constant.chordpro'
   },
   {
+    'begin': '^{(a|artist):\\s*'
+    'end': '\\s*}$'
+    'name': 'constant.chordpro'
+  },
+  {
+    'begin': '^{(t|time):\\s*'
+    'end': '\\s*}$'
+    'name': 'constant.chordpro'
+  },
+  {
+    'begin': '^{(b|book):\\s*'
+    'end': '\\s*}$'
+    'name': 'constant.chordpro'
+  },
+  {
+    'begin': '^{(tempo):\\s*'
+    'end': '\\s*}$'
+    'name': 'constant.chordpro'
+  },
+  {
     'begin': '^{(c|comment):\\s*'
+    'end': '\\s*}$'
+    'name': 'comment.chordpro'
+  }, 
+  {
+    'begin': '^{(gc|guitar_comment):\\s*'
     'end': '\\s*}$'
     'name': 'comment.chordpro'
   },
@@ -35,7 +60,7 @@
     'name': 'comment.chordpro'
   },
   {
-    'begin': '^{(soc|start_of_chorus)}(\n)*'
+    'begin': '^{(soc|start_of_chorus)\\s*'
     'end': '(\n)*{(eoc|end_of_chorus)}$'
     'name': 'string.chordpro'
     'patterns': [

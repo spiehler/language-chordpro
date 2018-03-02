@@ -6,8 +6,8 @@
       {subtitle: $2}
       {key: $3}
       $4
-      {soc}
-      {eoc}
+      {start_of_chorus}
+      {end_of_chorus}
     """
   'title':
     'prefix': 't'
@@ -51,3 +51,15 @@
   'meta':
     'prefix': 'me'
     'body': '{meta: $1}$2'
+  'comment':
+    'prefix': 'c'
+    'body': '{comment: $1}$2'
+  'guitar_comment':
+    'prefix': 'gc'
+    'body': '{guitar_comment: $1}$2'
+  'start_of_chorus':
+    'prefix': 'soc'
+    'body': '{start_of_chorus}$1'
+  'end_of_chorus':
+    'prefix': 'eoc'
+    'body': '{end_of_chorus}'

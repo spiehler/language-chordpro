@@ -1,4 +1,4 @@
-# Chordpro package
+# chordpro package
 [![Installs!](https://img.shields.io/apm/dm/language-chordpro.svg?style=flat-square)](https://atom.io/packages/language-chordpro)
 [![Version!](https://img.shields.io/apm/v/language-chordpro.svg?style=flat-square)](https://atom.io/packages/language-chordpro)
 [![License](https://img.shields.io/apm/l/language-chordpro.svg?style=flat-square)](https://github.com/spiehler/language-chordpro/blob/master/LICENSE.md)
