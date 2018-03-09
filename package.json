@@ -1,7 +1,7 @@
 {
   "name": "language-chordpro",
   "main": "./lib/language-chordpro",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Chordpro language support in Atom",
   "repository": "https://github.com/spiehler/language-chordpro.git",
   "keywords": [
