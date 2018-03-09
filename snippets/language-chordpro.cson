@@ -18,6 +18,9 @@
   'artist':
     'prefix': 'ar'
     'body': '{artist: $1}$2'
+  'book':
+    'prefix': 'bo'
+    'body': '{book: $1}$2'
   'composer':
     'prefix': 'co'
     'body': '{composer: $1}$2'
@@ -62,4 +65,4 @@
     'body': '{start_of_chorus}$1'
   'end_of_chorus':
     'prefix': 'eoc'
-    'body': '{end_of_chorus}'
+    'body': '{end_of_chorus}$1'
