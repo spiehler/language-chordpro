@@ -1,8 +1,26 @@
 {
   "context-menu": {
-    "atom-text-editor": [
+    ".tree-view .file .name[data-name$=\\.cho]": [
       {
-        "label": "Toggle language-chordpro",
+        "label": "Toggle Chordpro Helper",
+        "command": "language-chordpro:toggle"
+      }
+    ],
+    ".tree-view .file .name[data-name$=\\.crd]": [
+      {
+        "label": "Toggle Chordpro Helper",
+        "command": "language-chordpro:toggle"
+      }
+    ],
+    ".tree-view .file .name[data-name$=\\.chopro]": [
+      {
+        "label": "Toggle Chordpro Helper",
+        "command": "language-chordpro:toggle"
+      }
+    ],
+    ".tree-view .file .name[data-name$=\\.chordpro]": [
+      {
+        "label": "Toggle Chordpro Helper",
         "command": "language-chordpro:toggle"
       }
     ]
