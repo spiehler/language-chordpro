@@ -2,25 +2,25 @@
   "context-menu": {
     ".tree-view .file .name[data-name$=\\.cho]": [
       {
-        "label": "Toggle Chordpro Helper",
+        "label": "Toggle Chordpro Tools",
         "command": "language-chordpro:toggle"
       }
     ],
     ".tree-view .file .name[data-name$=\\.crd]": [
       {
-        "label": "Toggle Chordpro Helper",
+        "label": "Toggle Chordpro Tools",
         "command": "language-chordpro:toggle"
       }
     ],
     ".tree-view .file .name[data-name$=\\.chopro]": [
       {
-        "label": "Toggle Chordpro Helper",
+        "label": "Toggle Chordpro Tools",
         "command": "language-chordpro:toggle"
       }
     ],
     ".tree-view .file .name[data-name$=\\.chordpro]": [
       {
-        "label": "Toggle Chordpro Helper",
+        "label": "Toggle Chordpro Tools",
         "command": "language-chordpro:toggle"
       }
     ]
@@ -33,7 +33,7 @@
           "label": "Chordpro",
           "submenu": [
             {
-              "label": "Toggle Helper",
+              "label": "Toggle Tools",
               "command": "language-chordpro:toggle"
             }
           ]
