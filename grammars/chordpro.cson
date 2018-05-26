@@ -2,6 +2,7 @@
 'scopeName': 'source.chordpro'
 'name': 'Chordpro'
 'fileTypes': [
+  'pro',
   'cho',
   'crd',
   'chopro',
@@ -48,7 +49,7 @@
     'begin': '^{(c|comment):\\s*'
     'end': '\\s*}$'
     'name': 'comment.chordpro'
-  }, 
+  },
   {
     'begin': '^{(gc|guitar_comment):\\s*'
     'end': '\\s*}$'
@@ -68,7 +69,7 @@
         'match': '\\[[a-zA-Z0-9#\\/]*\\]',
         'name': 'variable.chordpro',
         'comment': 'Chords'
-      }  
+      }
     ]
   },
   {
