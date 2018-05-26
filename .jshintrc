@@ -1,0 +1,13 @@
+{
+    "undef": true,
+    "unused": true,
+    "esversion": 6,
+    "curly": true,
+    "eqeqeq": true,
+    "eqnull": true,
+    "globals": {
+      "document": true,
+      "atom": true,
+      "serializedState": true
+    }
+}
