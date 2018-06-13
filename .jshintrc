@@ -8,6 +8,7 @@
     "globals": {
       "document": true,
       "atom": true,
-      "serializedState": true
+      "serializedState": true,
+      "console": true
     }
 }
