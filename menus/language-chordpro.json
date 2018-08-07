@@ -12,6 +12,12 @@
         "command": "language-chordpro:toggle"
       }
     ],
+    ".tree-view .file .name[data-name$=\\.pro]": [
+      {
+        "label": "Toggle Chordpro Tools",
+        "command": "language-chordpro:toggle"
+      }
+    ],
     ".tree-view .file .name[data-name$=\\.chopro]": [
       {
         "label": "Toggle Chordpro Tools",

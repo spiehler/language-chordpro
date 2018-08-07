@@ -4,6 +4,7 @@
 'fileTypes': [
   'cho',
   'crd',
+  'pro',
   'chopro',
   'chordpro'
 ]
