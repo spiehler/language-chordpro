@@ -1,6 +1,6 @@
 'use babel';
 
-import LanguageChordproView from '../lib/language-chordpro-view';
+import LanguageChordproView from '../lib/LanguageChordproView';
 
 describe('LanguageChordproView', () => {
   it('has one valid test', () => {
