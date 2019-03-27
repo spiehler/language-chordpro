@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-c": "language-chordpro:toggle"
+    "ctrl-alt-c": "language-chordpro:toggle",
+    "ctrl-alt-p": "language-chordpro:showPreview"
   }
 }

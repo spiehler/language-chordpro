@@ -16,8 +16,9 @@
     "url": "https://github.com/spiehler"
   },
   "activationCommands": {
-    "atom-workspace": "language-chordpro:toggle"
+    "atom-workspace": ["language-chordpro:toggle", "language-chordpro:showPreview"]
   },
+  "activationHooks": "language-chordpro:grammar-used",
   "deserializers": {
     "language-chordpro/LanguageChordproView": "deserializeLanguageChordproView"
   },
@@ -25,5 +26,7 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "chordsheetjs": "^2.8.1"
+  }
 }

@@ -41,6 +41,10 @@
             {
               "label": "Toggle Tools",
               "command": "language-chordpro:toggle"
+            },
+            {
+              "label": "Show Preview",
+              "command": "language-chordpro:showPreview"
             }
           ]
         }

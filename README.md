@@ -13,6 +13,9 @@ The chordpro support can be installed through Atom. Alternatively you can use `a
 ### Features
 * Syntax highlighting when editing chordpro files
 * Snippets for the most important language elements
+* Convert Text to Chordpro files and vice versa
+* Transpose songs
+* Preview a song as HTML print and save it
 
 ### Examples
 Create a new file with the ending cho, chopro or chordpro. Now you can use snippets for all major language elements like t for {title: } ...
